@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-10-05T13:29:42.670883",
+  "db_path": "C:\\Users\\selva\\Documents\\GitHub\\ASL-AR-Project\\backend\\merged_banks.db",
+  "created": [
+    {
+      "logical_table": "Customer",
+      "table": "Unified_Customer",
+      "rows": 20000,
+      "cols": 11
+    },
+    {
+      "logical_table": "Customer",
+      "table": "Unified_Customer",
+      "rows": 20000,
+      "cols": 11
+    },
+    {
+      "logical_table": "Customer",
+      "table": "Unified_Customer",
+      "rows": 20000,
+      "cols": 11
+    },
+    {
+      "logical_table": "Loan Accounts",
+      "table": "Unified_Loan_Accounts",
+      "rows": 34485,
+      "cols": 13
+    },
+    {
+      "logical_table": "Loan Accounts",
+      "table": "Unified_Loan_Accounts",
+      "rows": 29715,
+      "cols": 13
+    },
+    {
+      "logical_table": "Loan Account Transactions",
+      "table": "Unified_Loan_Account_Transactions",
+      "rows": 172460,
+      "cols": 10
+    },
+    {
+      "logical_table": "Loan Account Transactions",
+      "table": "Unified_Loan_Account_Transactions",
+      "rows": 148234,
+      "cols": 10
+    }
+  ],
+  "auto_inferred_tables": [],
+  "empty_outputs": [],
+  "dropped_unresolved_columns": []
+}
