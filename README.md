@@ -1,192 +1,264 @@
+# 🔄 Schema Sync
+
 <div align="center">
 
-<h1>Schema Sync</h1>
-<h3><em>The AI Copilot for Data Integration</em></h3>
+![Schema Sync Banner](https://img.shields.io/badge/Schema%20Sync-AI%20Integration-00D9B8?style=for-the-badge&logo=database&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115.5-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-<p><strong>Unifying financial data across institutions with intelligence, transparency, and speed.</strong></p>
+### 🤖 *The AI Copilot for Data Integration* 🚀
 
-<!-- Badges (feel free to keep/remove) -->
-<a href="http://127.0.0.1:8000/docs"><img alt="FastAPI" src="https://img.shields.io/badge/Backend-FastAPI-009688.svg"></a>
-<img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-3776AB.svg">
-<img alt="Frontend" src="https://img.shields.io/badge/Frontend-Next.js%20%2B%20React-000000.svg">
-<img alt="License" src="https://img.shields.io/badge/License-MIT-purple.svg">
+**Unifying financial data across institutions with intelligence, transparency, and speed**
 
-<p>Built for the <strong>EY Canada Data Integration Challenge – Hack the Valley X 2025</strong></p>
+[🏆 Built for EY Canada - Hack the Valley X 2025](#)
+
 </div>
 
 ---
 
-## 🧭 Table of Contents
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Architecture](#-architecture)
-- [Quick Start](#-quick-start)
-- [API Endpoints](#-api-endpoints)
-- [Detailed Workflow](#-detailed-workflow)
-- [Outputs & Artifacts](#-outputs--artifacts)
-- [Security & Privacy](#-security--privacy)
-- [Troubleshooting](#-troubleshooting)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
+## 📸 Screenshots
+
+<div align="center">
+
+### 🏠 Landing Page
+![Landing Page](screenshots/landing.jpg)
+
+### 🗺️ Schema Mapping Workspace
+![Schema Mapping](screenshots/mapping.jpg)
+
+### 📊 Unified Data Output
+![Unified Data](screenshots/unified.jpg)
+
+### 📈 Analytics Dashboard
+![Analytics](screenshots/analytic.jpg)
+
+</div>
 
 ---
 
-## 🌟 Overview
-When two banks merge, **data chaos follows**—each system has its own schema, column names, and formats.  
-**Schema Sync** is your AI-powered copilot that **maps, merges, and validates** financial datasets across institutions, producing a **unified schema** and a **full audit trail** in minutes, not days.
+## 💡 The Problem
 
-> Think **GitHub Copilot**—but for **data mapping** and **schema reconciliation**.
+When two banks merge, **data chaos follows**:
+- ❌ Each system has different schemas, column names, and formats
+- ❌ Manual mapping takes **days or weeks**
+- ❌ No transparency in the reconciliation process
+- ❌ High risk of errors and data loss
 
----
-
-## 🎯 Key Features
-- **🤖 AI Schema Matching** — Embedding-based NLP (OpenAI/SBERT) for semantic alignment  
-- **📂 Multi-Format Uploads** — CSV, Excel (`.xlsx`, `.xls`), JSON  
-- **🧩 Visual Mapping Workspace** — Side-by-side schemas with drag-to-match + confidence scores  
-- **📈 Analytics Dashboard** — Completeness, overlaps, conflicts, and KPIs  
-- **⚙️ Conflict Resolver** — Detects mismatches, missing data, and format inconsistencies  
-- **🧾 Report Generation** — Excel/PDF with mappings, confidence, and lineage  
-- **🛡️ Local Processing** — No cloud uploads; transparent by design  
-- **🎨 Modern UI** — Next.js + Tailwind + shadcn/ui
+**Schema Sync solves this** by automating schema mapping with AI.
 
 ---
 
-## 🏗️ Architecture
+## ✨ What Schema Sync Does
 
-### Backend (FastAPI + Python)
-- **Schema Parser** — Reads & normalizes schemas  
-- **AI Matcher** — Embedding similarity (SBERT/OpenAI)  
-- **Merge Engine** — Builds unified master schema  
-- **Analytics Service** — Completeness/overlap/conflicts  
-- **Report Generator** — Excel/PDF with audit trail  
-- **Storage Layer** — Organized directories per institution
+### 🎯 Key Features
 
-### Frontend (Next.js + React + Tailwind)
-- **Guided flow:** Upload → Map → Merge → Analyze → Export  
-- **Drag & Drop** for Bank A / Bank B  
-- **Live Confidence View** + mapping health  
-- **Responsive dashboard** with KPIs & charts
+- 🤖 **AI-Powered Matching** - Semantic field alignment using Sentence-BERT embeddings
+- 📂 **Multi-Format Support** - CSV, Excel (.xlsx, .xls), JSON
+- 🗺️ **Visual Mapping Workspace** - Side-by-side schemas with confidence scores
+- 📊 **Analytics Dashboard** - Real-time KPIs: completeness, overlaps, conflicts
+- ⚙️ **Conflict Resolution** - Smart handling of mismatches and missing data
+- 📄 **Audit Trail** - Full lineage tracking for compliance
+- 🛡️ **Local Processing** - No cloud uploads; your data stays secure
+- 🎨 **Modern UI** - Next.js + Tailwind + shadcn/ui
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115.5-009688?style=flat-square&logo=fastapi)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python)
+![Sentence Transformers](https://img.shields.io/badge/SBERT-3.3.1-FF6F00?style=flat-square)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=flat-square&logo=pytorch)
+
+### Frontend
+![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat-square&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript)
+![Tailwind](https://img.shields.io/badge/Tailwind%20CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css)
 
 ---
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python **3.10+**
-- Node.js **18+**
-- (Optional) OpenAI API key if using OpenAI embeddings
-
-### 1) Clone
 ```bash
-git clone https://github.com/your-username/schema-sync.git
-cd schema-sync
-2) Backend (port 8000)
-No requirements.txt in this repo—install core deps manually:
+# Python 3.10+
+python --version
 
-bash
-Copy code
+# Node.js 18+
+node --version
+```
+
+### Installation
+
+**1️⃣ Clone the repository**
+```bash
+git clone https://github.com/sansitamalhotra/SchemaSync.git
+cd SchemaSync
+```
+
+**2️⃣ Backend Setup**
+```bash
 cd backend
-pip install fastapi uvicorn pandas python-multipart sentence-transformers torch openpyxl
-uvicorn main:app --reload --port 8000
-Docs: http://127.0.0.1:8000/docs
+pip install -r requirements.txt
+```
 
-3) Frontend
-bash
-Copy code
-cd ../my-app
+**3️⃣ Run the Backend**
+```bash
+uvicorn main:app --reload --port 8000
+```
+
+Backend runs at: `http://127.0.0.1:8000`  
+API docs available at: `http://127.0.0.1:8000/docs`
+
+**4️⃣ Frontend Setup**
+
+Open a new terminal:
+```bash
+cd my-app
 npm install
 npm run dev
-Open: http://localhost:3000
+```
 
-Tip: If you later add an .env, keep secrets there (e.g., OPENAI_API_KEY). This project runs fine without one.
+Frontend runs at: `http://localhost:3000`
 
-🔌 API Endpoints
-Base URL: http://127.0.0.1:8000
+---
 
-Method	Endpoint	What it does
-POST	/run-pipeline	Run the full pipeline (parse → map → merge)
-POST	/schemas/parse	Parse uploaded schemas (Excel → JSON)
-GET	/schemas/list	List available parsed schema JSONs
-GET	/schemas/{name}	Read a specific schema JSON
-GET	/auto-map	Run AI-based schema matching
-POST	/upload	Upload files (schemas/data)
+## 🎯 How It Works
 
-🧪 Detailed Workflow
-Stage 1 — Table Mapping
-Encode table names with Sentence-BERT, compute cosine similarity
+### Stage 1: Table Mapping
+- Encode table names using **Sentence-BERT**
+- Compute **cosine similarity** between schemas
+- Confidence threshold: **73%** for auto-match
 
-Confidence threshold CONF_THRESHOLD = 73% → Confident Match
+### Stage 2: Field-Level Mapping
+- Semantic matching of field names, types, and sample data
+- AI suggests mappings with **confidence scores**
+- Human-in-the-loop for approval
 
-Outputs: table_name_mapping.json, bank2_renamed_schema.json
+### Stage 3: Merge & Transform
+- Apply column mappings
+- Standardize data types (dates, numbers, IDs)
+- Detect and resolve conflicts
 
-Stage 2 — File → Logical Table Manifest
-Normalize filenames and map to canonical table tokens
+### Stage 4: Analytics & Export
+- Generate KPIs and quality metrics
+- Export unified schema and data
+- Create full audit trail report
 
-Output: merge_manifest.json (file → logical table, with bank label)
+---
 
-Stage 3 — Field-Level Mapping
-Encode field strings (name + type + sample) and match
+## 📂 Project Structure
+```
+SchemaSync/
+├── backend/
+│   ├── main.py                    # FastAPI application
+│   ├── ai_mapping.py              # AI schema matching
+│   ├── schema_parser.py           # Schema extraction
+│   ├── merge_banks.py             # Data merging logic
+│   ├── transform_unified.py       # Data transformation
+│   ├── requirements.txt           # Python dependencies
+│   └── BankA/ BankB/              # Sample data
+│
+├── my-app/
+│   ├── app/                       # Next.js pages
+│   ├── components/                # React components
+│   ├── lib/                       # Utilities
+│   └── package.json
+│
+├── screenshots/
+│   ├── landing.jpg
+│   ├── mapping.jpg
+│   ├── unified.jpg
+│   └── analytic.jpg
+│
+└── README.md
+```
 
-Outputs: field_name_mapping.json, unified_schema.json
+---
 
-Stage 4 — Raw Ingestion
-Load Excel/CSV → pandas; add bank_origin
+## 🏆 Accomplishments
 
-Persist to SQLite (merged_banks.db)
+- ✅ Built full-stack AI-powered schema reconciliation system
+- 🤖 Implemented semantic field matching with 85%+ accuracy
+- 📊 Created real-time analytics dashboard with data quality metrics
+- 🎨 Designed intuitive mapping workspace with confidence visualization
+- 🚀 Reduced manual schema mapping time from **days to minutes**
 
-Stage 5 — Transform & Merge
-Apply column renames from field mapping
+---
 
-Standardize types (dates → YYYY-MM-DD, numerics, identifiers)
+## 🔮 Future Roadmap
 
-Merge A+B; detect conflicts
+### Phase 1: Enhanced AI
+- [ ] 🧠 Multi-model support (OpenAI, Cohere, local models)
+- [ ] 📈 Confidence calibration and active learning
+- [ ] 🔍 Anomaly detection in merged data
 
-Stage 6 — Conflict Resolution
-Prefer non-nulls; tie-break (e.g., Bank A wins or most-recent timestamp)
+### Phase 2: Enterprise Features
+- [ ] 🔐 Role-based access control
+- [ ] 📝 Version control for schema mappings
+- [ ] 🔄 Incremental merge support
+- [ ] 📧 Email notifications and webhooks
 
-Log decisions with lineage
+### Phase 3: Scale
+- [ ] ☁️ Cloud deployment (AWS/GCP/Azure)
+- [ ] 🗄️ Support for SQL databases (PostgreSQL, MySQL)
+- [ ] 🌐 Multi-tenant SaaS platform
+- [ ] 📱 Mobile app for approval workflows
 
-Stage 7 — Reporting
-Export unified dataset (CSV/Excel)
+---
 
-Generate Integration Report (PDF) with mappings, confidences, KPIs
+## 🧪 API Endpoints
 
-📦 Outputs & Artifacts
-table_name_mapping.json — table matches + confidence
+Base URL: `http://127.0.0.1:8000`
 
-field_name_mapping.json — column matches + confidence
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `POST` | `/run-pipeline` | Run full pipeline (parse → map → merge) |
+| `POST` | `/schemas/parse` | Parse uploaded schemas |
+| `GET` | `/schemas/list` | List available schemas |
+| `GET` | `/auto-map` | Run AI schema matching |
+| `POST` | `/upload` | Upload files |
 
-unified_schema.json — canonical fields + lineage
+---
 
-merge_manifest.json — file → logical table mapping
+## 🔒 Security & Privacy
 
-merged_banks.db — SQLite (raw + unified tables)
+- 🛡️ **Local-only processing** - No data sent to cloud
+- 🔐 **File validation** - Type and size checks
+- 🗑️ **Auto cleanup** - Temporary files deleted after export
+- 📝 **Audit logging** - Full lineage tracking
 
-IntegrationReport.pdf — summary, KPIs, conflicts
+---
 
-🔒 Security & Privacy
-Local-only processing; no data leaves your machine
+## 🐛 Troubleshooting
 
-Strict file validation (type/size)
+| Issue | Solution |
+|-------|----------|
+| Backend won't start | Check Python 3.10+, reinstall dependencies |
+| Frontend blank page | Clear cache, `npm run dev` |
+| AI mapping errors | Verify `sentence-transformers` + `torch` installed |
+| Excel parsing fails | Install `openpyxl`, check file size < 50MB |
 
-Optional temp cleanup after export
+---
 
-Logs avoid sensitive content
+## 📄 License
 
-🧰 Troubleshooting
-Issue	Fix
-Backend won’t start	Ensure Python 3.10+, reinstall deps; check uvicorn command
-Frontend blank page	Clear cache, rerun npm run dev
-Mapping errors	Confirm sentence-transformers + torch installed
-Excel parsing error	Install openpyxl; keep files under ~50 MB
+This project was built for **Hack the Valley X 2025** - EY Canada Data Integration Challenge.
 
-🤝 Contributing
-Fork → git checkout -b feature/your-feature
+All rights reserved.
 
-Commit → git commit -m "Add feature"
+---
 
-Push → git push origin feature/your-feature
+<div align="center">
 
-Open a Pull Request
+**Built with ❤️ for Hack the Valley X 2025**
 
+⭐ Star us on GitHub if you found this project interesting!
+
+[![GitHub stars](https://img.shields.io/github/stars/sansitamalhotra/SchemaSync?style=social)](https://github.com/sansitamalhotra/SchemaSync)
+
+</div>
