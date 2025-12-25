@@ -17,6 +17,21 @@
 </div>
 
 ---
+---
+
+## 🎯 About This Project
+
+**Schema Sync** was built in **24 hours** at **Hack the Valley X 2025** (University of Toronto's premier hackathon) for the **EY Canada Data Integration Challenge**.
+
+This repository is my personal version of the project, cleaned up and documented for portfolio purposes. The original collaborative version can be found [here](https://github.com/[original-repo-if-you-want-to-link-it]).
+
+**My Contributions:**
+- Full-stack development (React frontend + FastAPI backend)
+- AI schema matching implementation using Sentence-BERT
+- Real-time analytics dashboard with data visualization
+- Conflict resolution and data transformation logic
+
+---
 
 ## 📸 Screenshots
 
