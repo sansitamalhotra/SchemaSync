@@ -23,7 +23,7 @@
 
 **Schema Sync** was built in **24 hours** at **Hack the Valley X 2025** (University of Toronto's premier hackathon) for the **EY Canada Data Integration Challenge**.
 
-This repository is my personal version of the project, cleaned up and documented for portfolio purposes. The original collaborative version can be found [here](https://github.com/[original-repo-if-you-want-to-link-it]).
+This repository is my personal version of the project, cleaned up and documented for portfolio purposes. The original collaborative version can be found [here](https://github.com/selvxhini-10/EY-Schema-Merger.git).
 
 **My Contributions:**
 - Full-stack development (React frontend + FastAPI backend)
